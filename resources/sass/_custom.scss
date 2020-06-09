@@ -1,0 +1,143 @@
+// Wrapper
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: black;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.container {
+    width: 90%;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+// Nav
+.navMain {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 60px;
+    padding: 40px 0px;
+    padding-bottom: 50px;
+}
+
+.navMain ul {
+    display: flex;
+    list-style: none;
+}
+
+.navMain .logo {
+    width: 75px;
+    height: 75px;
+}
+
+.navMain ul.main-menu {
+    flex: 1;
+    margin-left: 20px;
+    margin-top: 99px;
+}
+
+.navMain ul li {
+    padding: 0 10px;
+    font-size: 20px;
+    padding-bottom: 20px
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.navMain ul li a:hover {
+    color: rgb(36, 36, 230);
+    transition: background-color .5s;
+    text-decoration: none;
+}
+
+// Showcase
+#title {
+    color:#f8fafc;
+    font-style:normal;
+    font-size: 115px;
+    font-family:'Times New Roman';
+}
+
+.getStarted {
+    display: inline-block;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: grey;
+    font-family:'Georgia';
+    color: white;
+    font-style: normal;
+}
+
+.getStarted:hover {
+    opacity: 0.9;
+    text-decoration: none;
+    color: black;
+}
+
+.heading {
+    width: 100%;
+    height: 500px;
+    background: url("/images/septa.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 200px;
+    margin-bottom: 10px;
+}
+
+// Home Cards
+.homeCards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 7px;
+}
+
+.homeCards a {
+    display: inline-block;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    border: 0;
+    background-color: grey;
+    color: white;
+    font-family:'Georgia';
+    padding: 5px 10px;
+    position: relative;
+    top: 50%;
+}
+
+.img {
+    background-repeat: no-repeat;
+    height: 225px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    border-bottom: 28px;
+}
+
+// About
+.test {
+    width: 100% !important;
+    max-width: 2000px !important;
+    font-size: 15px;
+    right: 1000%;
+}
