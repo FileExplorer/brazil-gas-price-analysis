@@ -9,9 +9,9 @@
         extension=mysqli
         extension=openssl
         extension=pdo_mysql
-5. On Xampp, click "config" next to Apache and open "httpd.conf"
+4. On Xampp, click "config" next to Apache and open "httpd.conf"
   a. Change “Listen” port in httpd.conf to 8080
-6. On Xampp, click "config" next to Apache and open "<Browse> [Apache]"
+5.On Xampp, click "config" next to Apache and open "<Browse> [Apache]"
   a. Navigate to "conf\extra\" and open "httpd-vhosts.conf"
   b. Add the following:
 "
@@ -25,10 +25,10 @@
     ServerName septa.build
 </VirtualHost>
 "
-7. Open hosts file within your system
+6.Open hosts file within your system
   a. Add "127.0.0.1 localhost
   b. Add "127.0.0.1 septa.build"
-8. On Xamp, click "start" next to the Apache Module and the on your browser, type in "septa.build:8080"
+7.On Xamp, click "start" next to the Apache Module and the on your browser, type in "septa.build:8080"
 
 !If a Laravel related error occurs, you may need to install Lavaral.
 1.. Download Composer for PHP at https://getcomposer.org/
